@@ -1,12 +1,16 @@
 package myaplicacion.my_recover_password;
 
-import android.support.v7.app.ActionBarActivity;
+import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import butterknife.OnClick;
+import myaplicacion.my_recover_password.RecoverPassword.RecoverPasswordActivity;
 
-public class MainActivity extends ActionBarActivity {
+
+public class MainActivity extends Activity implements MainActivityView {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,5 +39,10 @@ public class MainActivity extends ActionBarActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    @OnClick(R.id.btnSendPassword)
+    public void navigationToClickable() {
+        startActivity(new Intent(this, RecoverPasswordActivity.class));
     }
 }

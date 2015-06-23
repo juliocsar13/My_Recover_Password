@@ -3,4 +3,91 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <!--Error sets-->
+    <string name="email_error">Error email</string>
+    <string name="password_error">Error password</string>
+    <string name="phone_error">Error phone</string>
+    <string name="name_error">Error nombre</string>
+    <string name="lastname_error">Error lastname</string>
+    <string name="dialog_edit_code">Error code</string>
+
+    <string name="dialog_conection_title">Configuracion de internet</string>
+    <string name="dialog_conection_message">Activa los datos o WI-FI en la configuracion</string>
+    <string name="dialog_login_title">Error al iniciar sesion</string>
+    <string name="dialog_login_message">Se trato de iniciar sesion pero hubo un error, por favor intentelo de nuevo</string>
+    <string name="dialog_login_userpass_error_title">Error al iniciar sesion</string>
+    <string name="dialog_login_userpass_error_message">El nombre de usuario o contraseña son incorrectos</string>
+    <string name="progress_login_title">Iniciando sesion</string>
+    <string name="progress_register_title">Registrando usuarios</string>
+    <string name="progress_code_title">Enviando codigo</string>
+    <string name="dialog_map_title_end_service">Aviso</string>
+    <string name="dialog_map_message_end_service">Se termino el servicio, gracias por utilizar AkiTaxi</string>
+    <string name="dialog_map_title_request_notice">Aviso</string>
+    <string name="dialog_map_message_request_notice">Se termino el servicio, gracias por utilizar AkiTaxi</string>
+    <string name="dialog_map_title_cancel_error">Aviso</string>
+    <string name="dialog_map_message_cancel_error">No se pudo enviar correctamente, por favor intentelo de nuevo</string>
+    <string name="dialog_map_title_request_error">Aviso</string>
+    <string name="dialog_map_message_request_error">No se pudo enviar correctamente el pedido, por favor intentelo de nuevo</string>
+    <string name="dialog_GPS_error">Aviso</string>
+    <string name="dialog_GPS_message_error">Activa su GPS en la configuracion</string>
+    <string name="settings_services">Configuracion</string>
+    <string name="cancel_services">Cancelar</string>
+    <string name="accept_services">Configuracion</string>
+    <string name="dialog_INTERNET_error">Aviso</string>
+    <string name="dialog_INTERNET_message_error">Activa los datos o WI-FI en la configuracion</string>
+    <string name="dialog_register_message">Se registro correctamente</string>
+    <string name="dialog_phone_error">El telefono ya se encuentra registrado</string>
+    <string name="dialog_email_error">El email ya se encuentra registrado</string>
+    <string name="request_error">No se pudo enviar correctamente, por favor vuelva a intentarlo</string>
+
+
+
+    <!--STRING DE LAYOUT EN GENERAL FRONT END-->
+
+
+
+    <string name="title_activity_map">MapActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_place_map_fragment">PlaceMapFragment</string>
+    <string name="title_activity_dialog_user">DialogUserActivity</string>
+    <string name="main.user.name">Nombre</string>
+    <string name="main.user.email">Email</string>
+    <string name="main.user.password">Contraseña</string>
+    <string name="main.user.button1">Iniciar sesión</string>
+    <string name="main.user.button2">Registrarse</string>
+    <string name="Maincontent">Main Content</string>
+    <string name="title_activity_dialog_details_service">DialogDetailsService</string>
+    <string name="dialog.user.name">Nombre:</string>
+    <string name="dialog.user.placa">Placa:</string>
+    <string name="dialog.user.phone">Teléfono:</string>
+    <string name="dialog.user.button">Aceptar</string>
+    <string name="dialog.radar.search">Buscando Taxistas, no cierre la Aplicacion</string>
+    <string name="dialog.radar.cancel">Cancelar solicitud</string>
+    <string name="dialog.details.address">Dirección :</string>
+
+    <string name="register.hint.title">Registrate Aqui</string>
+    <string name="register.hint.name">Nombre</string>
+    <string name="register.hint.last.name">Apellido</string>
+    <string name="register.hint.email">E-mail</string>
+    <string name="register.hint.number.phone">Numero-Tel</string>
+    <string name="register.button.register">Registrarse</string>
+    <string name="map.hint.note">Escribir nota (opcional)</string>
+    <string name="map.button.call">Llamar Taxi</string>
+    <string name="map.button.cancel">Cancelar taxi</string>
+    <string name="map.layout.welcome">bienvenido a akitaxi</string>
+    <string name="map.layout.last.name">Nombre y Apellido</string>
+    <string name="map.layout.number.phone">Celular</string>
+    <string name="map.layout.number.placa">Placa</string>
+    <string name="map.layout.enterprise">Empresa</string>
+    <string name="map.layout.model">Modelo y Marca</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_prestart">Prestart</string>
+    <string name ="condicion">Necesitamos su número para verificarlo, cuando  lo verifiquemos dentro de 1-5 minutos
+        recibirá un mensaje de texto donde  le enviaremos el código de verificación, y luego  lo pondremos en el
+        campo para verificarlo.</string>
+    <string name="Message">Coloque su código de verificación</string>
+    <string name="activity_code.codigo">codigo</string>
+    <string name="activity_code.codigo.btn.Enviar">Enviar</string>
+    <string name="title.message.user">Ingrese su código de verificacíon</string>
+    <string name="button.message.user">Enviar</string>
 </resources>
