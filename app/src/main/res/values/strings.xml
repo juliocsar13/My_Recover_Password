@@ -90,4 +90,9 @@
     <string name="activity_code.codigo.btn.Enviar">Enviar</string>
     <string name="title.message.user">Ingrese su código de verificacíon</string>
     <string name="button.message.user">Enviar</string>
+    <string name="title_activity_numberpick">numberpick</string>
+
+    <string name="number.picker.button.next">+</string>
+    <string name="number.picker.button.previous">-</string>
+    <string name="number.picker.button.coverage">1</string>
 </resources>

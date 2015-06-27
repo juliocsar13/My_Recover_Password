@@ -16,9 +16,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RecoverPassword.RecoverPasswordActivity"
-            android:screenOrientation="portrait">
-
+        <activity
+            android:name=".RecoverPassword.RecoverPasswordActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".numberpick"
+            android:label="@string/title_activity_numberpick" >
         </activity>
     </application>
 

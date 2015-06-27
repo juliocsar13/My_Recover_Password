@@ -68,12 +68,12 @@ public class RecoverPasswordPresenterImpl implements RecoverPasswordPresenter,On
     @Override
     public void onSuccessSend(String email) {
 
-        //setOnVerify();
+      //  setOnVerify();
 
         user = new User(ctx);
         user.setEmail(email);
 
-        //setOnRegister();
+       // setOnRegister();
 
 
         recoverPasswordView.showDialogSuccessSend();

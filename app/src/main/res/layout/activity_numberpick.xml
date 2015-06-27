@@ -1,0 +1,36 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center"
+    tools:context="myaplicacion.my_recover_password.numberpick">
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="@string/number.picker.button.next"
+
+        android:textSize="22sp"
+        android:id="@+id/btnNextNumber"
+        android:layout_gravity="center_vertical" />
+
+    <EditText
+        android:layout_width="50dp"
+        android:inputType="number"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtNumberCoverage"
+        android:text="@string/number.picker.button.coverage"
+        android:gravity="center"
+        android:layout_gravity="center_vertical" />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="@string/number.picker.button.previous"
+        android:textSize="22sp"
+        android:id="@+id/btnPrevNumber"
+        android:layout_gravity="center_vertical"
+        style="5" />
+</LinearLayout>
