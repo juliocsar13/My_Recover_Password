@@ -15,14 +15,15 @@ public class MainActivity extends Activity  {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_numer_picker_uno);
+
 
     }
 
-    public void change(View Vista){
+    /*public void change(View Vista){
         Intent i= new Intent(this, RecoverPasswordActivity.class);
         startActivity(i);
-    }
+    }*/
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
